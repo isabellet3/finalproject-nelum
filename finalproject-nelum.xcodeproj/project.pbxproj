@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD1AE12A2C29F3EF008818EF /* finalproject_nelumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AE1292C29F3EF008818EF /* finalproject_nelumApp.swift */; };
+		BD1AE12C2C29F3EF008818EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AE12B2C29F3EF008818EF /* ContentView.swift */; };
+		BD1AE12E2C29F3F1008818EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1AE12D2C29F3F1008818EF /* Assets.xcassets */; };
+		BD1AE1312C29F3F1008818EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1AE1302C29F3F1008818EF /* Preview Assets.xcassets */; };
+		BD1AE13B2C29F3F1008818EF /* finalproject_nelumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AE13A2C29F3F1008818EF /* finalproject_nelumTests.swift */; };
+		BD1AE1452C29F3F1008818EF /* finalproject_nelumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AE1442C29F3F1008818EF /* finalproject_nelumUITests.swift */; };
+		BD1AE1472C29F3F1008818EF /* finalproject_nelumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AE1462C29F3F1008818EF /* finalproject_nelumUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD1AE1372C29F3F1008818EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD1AE11E2C29F3EF008818EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD1AE1252C29F3EF008818EF;
+			remoteInfo = "finalproject-nelum";
+		};
+		BD1AE1412C29F3F1008818EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD1AE11E2C29F3EF008818EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD1AE1252C29F3EF008818EF;
+			remoteInfo = "finalproject-nelum";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD1AE1262C29F3EF008818EF /* finalproject-nelum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "finalproject-nelum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1AE1292C29F3EF008818EF /* finalproject_nelumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalproject_nelumApp.swift; sourceTree = "<group>"; };
+		BD1AE12B2C29F3EF008818EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD1AE12D2C29F3F1008818EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD1AE1302C29F3F1008818EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD1AE1362C29F3F1008818EF /* finalproject-nelumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "finalproject-nelumTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1AE13A2C29F3F1008818EF /* finalproject_nelumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalproject_nelumTests.swift; sourceTree = "<group>"; };
+		BD1AE1402C29F3F1008818EF /* finalproject-nelumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "finalproject-nelumUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1AE1442C29F3F1008818EF /* finalproject_nelumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalproject_nelumUITests.swift; sourceTree = "<group>"; };
+		BD1AE1462C29F3F1008818EF /* finalproject_nelumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalproject_nelumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD1AE1232C29F3EF008818EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1AE1332C29F3F1008818EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1AE13D2C29F3F1008818EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD1AE11D2C29F3EF008818EF = {
+			isa = PBXGroup;
+			children = (
+				BD1AE1282C29F3EF008818EF /* finalproject-nelum */,
+				BD1AE1392C29F3F1008818EF /* finalproject-nelumTests */,
+				BD1AE1432C29F3F1008818EF /* finalproject-nelumUITests */,
+				BD1AE1272C29F3EF008818EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD1AE1272C29F3EF008818EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD1AE1262C29F3EF008818EF /* finalproject-nelum.app */,
+				BD1AE1362C29F3F1008818EF /* finalproject-nelumTests.xctest */,
+				BD1AE1402C29F3F1008818EF /* finalproject-nelumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD1AE1282C29F3EF008818EF /* finalproject-nelum */ = {
+			isa = PBXGroup;
+			children = (
+				BD1AE1292C29F3EF008818EF /* finalproject_nelumApp.swift */,
+				BD1AE12B2C29F3EF008818EF /* ContentView.swift */,
+				BD1AE12D2C29F3F1008818EF /* Assets.xcassets */,
+				BD1AE12F2C29F3F1008818EF /* Preview Content */,
+			);
+			path = "finalproject-nelum";
+			sourceTree = "<group>";
+		};
+		BD1AE12F2C29F3F1008818EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD1AE1302C29F3F1008818EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD1AE1392C29F3F1008818EF /* finalproject-nelumTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD1AE13A2C29F3F1008818EF /* finalproject_nelumTests.swift */,
+			);
+			path = "finalproject-nelumTests";
+			sourceTree = "<group>";
+		};
+		BD1AE1432C29F3F1008818EF /* finalproject-nelumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD1AE1442C29F3F1008818EF /* finalproject_nelumUITests.swift */,
+				BD1AE1462C29F3F1008818EF /* finalproject_nelumUITestsLaunchTests.swift */,
+			);
+			path = "finalproject-nelumUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD1AE1252C29F3EF008818EF /* finalproject-nelum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1AE14A2C29F3F1008818EF /* Build configuration list for PBXNativeTarget "finalproject-nelum" */;
+			buildPhases = (
+				BD1AE1222C29F3EF008818EF /* Sources */,
+				BD1AE1232C29F3EF008818EF /* Frameworks */,
+				BD1AE1242C29F3EF008818EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "finalproject-nelum";
+			productName = "finalproject-nelum";
+			productReference = BD1AE1262C29F3EF008818EF /* finalproject-nelum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD1AE1352C29F3F1008818EF /* finalproject-nelumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1AE14D2C29F3F1008818EF /* Build configuration list for PBXNativeTarget "finalproject-nelumTests" */;
+			buildPhases = (
+				BD1AE1322C29F3F1008818EF /* Sources */,
+				BD1AE1332C29F3F1008818EF /* Frameworks */,
+				BD1AE1342C29F3F1008818EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1AE1382C29F3F1008818EF /* PBXTargetDependency */,
+			);
+			name = "finalproject-nelumTests";
+			productName = "finalproject-nelumTests";
+			productReference = BD1AE1362C29F3F1008818EF /* finalproject-nelumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD1AE13F2C29F3F1008818EF /* finalproject-nelumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1AE1502C29F3F1008818EF /* Build configuration list for PBXNativeTarget "finalproject-nelumUITests" */;
+			buildPhases = (
+				BD1AE13C2C29F3F1008818EF /* Sources */,
+				BD1AE13D2C29F3F1008818EF /* Frameworks */,
+				BD1AE13E2C29F3F1008818EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1AE1422C29F3F1008818EF /* PBXTargetDependency */,
+			);
+			name = "finalproject-nelumUITests";
+			productName = "finalproject-nelumUITests";
+			productReference = BD1AE1402C29F3F1008818EF /* finalproject-nelumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD1AE11E2C29F3EF008818EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BD1AE1252C29F3EF008818EF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BD1AE1352C29F3F1008818EF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD1AE1252C29F3EF008818EF;
+					};
+					BD1AE13F2C29F3F1008818EF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD1AE1252C29F3EF008818EF;
+					};
+				};
+			};
+			buildConfigurationList = BD1AE1212C29F3EF008818EF /* Build configuration list for PBXProject "finalproject-nelum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD1AE11D2C29F3EF008818EF;
+			productRefGroup = BD1AE1272C29F3EF008818EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD1AE1252C29F3EF008818EF /* finalproject-nelum */,
+				BD1AE1352C29F3F1008818EF /* finalproject-nelumTests */,
+				BD1AE13F2C29F3F1008818EF /* finalproject-nelumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD1AE1242C29F3EF008818EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1AE1312C29F3F1008818EF /* Preview Assets.xcassets in Resources */,
+				BD1AE12E2C29F3F1008818EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1AE1342C29F3F1008818EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1AE13E2C29F3F1008818EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD1AE1222C29F3EF008818EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1AE12C2C29F3EF008818EF /* ContentView.swift in Sources */,
+				BD1AE12A2C29F3EF008818EF /* finalproject_nelumApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1AE1322C29F3F1008818EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1AE13B2C29F3F1008818EF /* finalproject_nelumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1AE13C2C29F3F1008818EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1AE1452C29F3F1008818EF /* finalproject_nelumUITests.swift in Sources */,
+				BD1AE1472C29F3F1008818EF /* finalproject_nelumUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD1AE1382C29F3F1008818EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD1AE1252C29F3EF008818EF /* finalproject-nelum */;
+			targetProxy = BD1AE1372C29F3F1008818EF /* PBXContainerItemProxy */;
+		};
+		BD1AE1422C29F3F1008818EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD1AE1252C29F3EF008818EF /* finalproject-nelum */;
+			targetProxy = BD1AE1412C29F3F1008818EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD1AE1482C29F3F1008818EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD1AE1492C29F3F1008818EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD1AE14B2C29F3F1008818EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"finalproject-nelum/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.finalproject-nelum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD1AE14C2C29F3F1008818EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"finalproject-nelum/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.finalproject-nelum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD1AE14E2C29F3F1008818EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.finalproject-nelumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/finalproject-nelum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/finalproject-nelum";
+			};
+			name = Debug;
+		};
+		BD1AE14F2C29F3F1008818EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.finalproject-nelumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/finalproject-nelum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/finalproject-nelum";
+			};
+			name = Release;
+		};
+		BD1AE1512C29F3F1008818EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.finalproject-nelumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "finalproject-nelum";
+			};
+			name = Debug;
+		};
+		BD1AE1522C29F3F1008818EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.finalproject-nelumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "finalproject-nelum";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD1AE1212C29F3EF008818EF /* Build configuration list for PBXProject "finalproject-nelum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1AE1482C29F3F1008818EF /* Debug */,
+				BD1AE1492C29F3F1008818EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1AE14A2C29F3F1008818EF /* Build configuration list for PBXNativeTarget "finalproject-nelum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1AE14B2C29F3F1008818EF /* Debug */,
+				BD1AE14C2C29F3F1008818EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1AE14D2C29F3F1008818EF /* Build configuration list for PBXNativeTarget "finalproject-nelumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1AE14E2C29F3F1008818EF /* Debug */,
+				BD1AE14F2C29F3F1008818EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1AE1502C29F3F1008818EF /* Build configuration list for PBXNativeTarget "finalproject-nelumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1AE1512C29F3F1008818EF /* Debug */,
+				BD1AE1522C29F3F1008818EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD1AE11E2C29F3EF008818EF /* Project object */;
+}
