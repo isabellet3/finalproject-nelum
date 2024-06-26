@@ -49,7 +49,7 @@ struct AboutUs: View {
                                     .border(Color.white, width: 5)
                                     .clipped()
                                 
-                                Image("image")
+                                Image("IsabelleBabyPicture")
                                     .resizable()
                                     .aspectRatio(contentMode: .fill)
                                     .frame(width: 175, height: 200)
