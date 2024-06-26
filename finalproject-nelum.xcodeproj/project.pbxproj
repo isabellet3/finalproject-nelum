@@ -14,6 +14,10 @@
 		BD1AE13B2C29F3F1008818EF /* finalproject_nelumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AE13A2C29F3F1008818EF /* finalproject_nelumTests.swift */; };
 		BD1AE1452C29F3F1008818EF /* finalproject_nelumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AE1442C29F3F1008818EF /* finalproject_nelumUITests.swift */; };
 		BD1AE1472C29F3F1008818EF /* finalproject_nelumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AE1462C29F3F1008818EF /* finalproject_nelumUITestsLaunchTests.swift */; };
+		BDF66A612C2C9886008D4ABD /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF66A602C2C9886008D4ABD /* Calendar.swift */; };
+		BDF66A632C2C9894008D4ABD /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF66A622C2C9894008D4ABD /* Notes.swift */; };
+		BDF66A652C2C98A4008D4ABD /* UpcomingEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF66A642C2C98A4008D4ABD /* UpcomingEvents.swift */; };
+		BDF66A672C2C98F0008D4ABD /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF66A662C2C98F0008D4ABD /* AboutUs.swift */; };
 		D8E503572C2BAD0700CDB6B7 /* StudyStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E503562C2BAD0700CDB6B7 /* StudyStrategy.swift */; };
 		D8E503592C2BAD1200CDB6B7 /* Question1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E503582C2BAD1200CDB6B7 /* Question1.swift */; };
 		D8E5035B2C2BAD1800CDB6B7 /* Question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5035A2C2BAD1800CDB6B7 /* Question2.swift */; };
@@ -53,6 +57,10 @@
 		BD1AE1402C29F3F1008818EF /* finalproject-nelumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "finalproject-nelumUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1AE1442C29F3F1008818EF /* finalproject_nelumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalproject_nelumUITests.swift; sourceTree = "<group>"; };
 		BD1AE1462C29F3F1008818EF /* finalproject_nelumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalproject_nelumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDF66A602C2C9886008D4ABD /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		BDF66A622C2C9894008D4ABD /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		BDF66A642C2C98A4008D4ABD /* UpcomingEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEvents.swift; sourceTree = "<group>"; };
+		BDF66A662C2C98F0008D4ABD /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 		D8E503562C2BAD0700CDB6B7 /* StudyStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StudyStrategy.swift; path = ../StudyStrategy.swift; sourceTree = "<group>"; };
 		D8E503582C2BAD1200CDB6B7 /* Question1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question1.swift; path = ../Question1.swift; sourceTree = "<group>"; };
 		D8E5035A2C2BAD1800CDB6B7 /* Question2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question2.swift; path = ../Question2.swift; sourceTree = "<group>"; };
@@ -114,6 +122,10 @@
 			children = (
 				BD1AE1292C29F3EF008818EF /* finalproject_nelumApp.swift */,
 				BD1AE12B2C29F3EF008818EF /* ContentView.swift */,
+				BDF66A662C2C98F0008D4ABD /* AboutUs.swift */,
+				BDF66A642C2C98A4008D4ABD /* UpcomingEvents.swift */,
+				BDF66A622C2C9894008D4ABD /* Notes.swift */,
+				BDF66A602C2C9886008D4ABD /* Calendar.swift */,
 				D8E503562C2BAD0700CDB6B7 /* StudyStrategy.swift */,
 				D8E503582C2BAD1200CDB6B7 /* Question1.swift */,
 				D8E5035A2C2BAD1800CDB6B7 /* Question2.swift */,
@@ -285,14 +297,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1AE12C2C29F3EF008818EF /* ContentView.swift in Sources */,
+				BDF66A632C2C9894008D4ABD /* Notes.swift in Sources */,
 				D8E503672C2BAD3C00CDB6B7 /* StudyEnd.swift in Sources */,
 				D8E503632C2BAD3100CDB6B7 /* Question6.swift in Sources */,
 				D8E5035B2C2BAD1800CDB6B7 /* Question2.swift in Sources */,
 				BD1AE12A2C29F3EF008818EF /* finalproject_nelumApp.swift in Sources */,
 				D8E5035D2C2BAD1D00CDB6B7 /* Question3.swift in Sources */,
 				D8E5035F2C2BAD2700CDB6B7 /* Question4.swift in Sources */,
+				BDF66A612C2C9886008D4ABD /* Calendar.swift in Sources */,
 				D8E503572C2BAD0700CDB6B7 /* StudyStrategy.swift in Sources */,
+				BDF66A652C2C98A4008D4ABD /* UpcomingEvents.swift in Sources */,
 				D8E503592C2BAD1200CDB6B7 /* Question1.swift in Sources */,
+				BDF66A672C2C98F0008D4ABD /* AboutUs.swift in Sources */,
 				D8E503612C2BAD2C00CDB6B7 /* Question5.swift in Sources */,
 				D8E503652C2BAD3600CDB6B7 /* Question7.swift in Sources */,
 			);
