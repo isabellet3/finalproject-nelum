@@ -14,6 +14,15 @@
 		BD1AE13B2C29F3F1008818EF /* finalproject_nelumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AE13A2C29F3F1008818EF /* finalproject_nelumTests.swift */; };
 		BD1AE1452C29F3F1008818EF /* finalproject_nelumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AE1442C29F3F1008818EF /* finalproject_nelumUITests.swift */; };
 		BD1AE1472C29F3F1008818EF /* finalproject_nelumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AE1462C29F3F1008818EF /* finalproject_nelumUITestsLaunchTests.swift */; };
+		D8E503572C2BAD0700CDB6B7 /* StudyStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E503562C2BAD0700CDB6B7 /* StudyStrategy.swift */; };
+		D8E503592C2BAD1200CDB6B7 /* Question1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E503582C2BAD1200CDB6B7 /* Question1.swift */; };
+		D8E5035B2C2BAD1800CDB6B7 /* Question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5035A2C2BAD1800CDB6B7 /* Question2.swift */; };
+		D8E5035D2C2BAD1D00CDB6B7 /* Question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5035C2C2BAD1D00CDB6B7 /* Question3.swift */; };
+		D8E5035F2C2BAD2700CDB6B7 /* Question4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5035E2C2BAD2700CDB6B7 /* Question4.swift */; };
+		D8E503612C2BAD2C00CDB6B7 /* Question5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E503602C2BAD2C00CDB6B7 /* Question5.swift */; };
+		D8E503632C2BAD3100CDB6B7 /* Question6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E503622C2BAD3100CDB6B7 /* Question6.swift */; };
+		D8E503652C2BAD3600CDB6B7 /* Question7.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E503642C2BAD3600CDB6B7 /* Question7.swift */; };
+		D8E503672C2BAD3C00CDB6B7 /* StudyEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E503662C2BAD3C00CDB6B7 /* StudyEnd.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		BD1AE1402C29F3F1008818EF /* finalproject-nelumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "finalproject-nelumUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1AE1442C29F3F1008818EF /* finalproject_nelumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalproject_nelumUITests.swift; sourceTree = "<group>"; };
 		BD1AE1462C29F3F1008818EF /* finalproject_nelumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalproject_nelumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8E503562C2BAD0700CDB6B7 /* StudyStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StudyStrategy.swift; path = ../StudyStrategy.swift; sourceTree = "<group>"; };
+		D8E503582C2BAD1200CDB6B7 /* Question1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question1.swift; path = ../Question1.swift; sourceTree = "<group>"; };
+		D8E5035A2C2BAD1800CDB6B7 /* Question2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question2.swift; path = ../Question2.swift; sourceTree = "<group>"; };
+		D8E5035C2C2BAD1D00CDB6B7 /* Question3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question3.swift; path = ../Question3.swift; sourceTree = "<group>"; };
+		D8E5035E2C2BAD2700CDB6B7 /* Question4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question4.swift; path = ../Question4.swift; sourceTree = "<group>"; };
+		D8E503602C2BAD2C00CDB6B7 /* Question5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question5.swift; path = ../Question5.swift; sourceTree = "<group>"; };
+		D8E503622C2BAD3100CDB6B7 /* Question6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question6.swift; path = ../Question6.swift; sourceTree = "<group>"; };
+		D8E503642C2BAD3600CDB6B7 /* Question7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question7.swift; path = ../Question7.swift; sourceTree = "<group>"; };
+		D8E503662C2BAD3C00CDB6B7 /* StudyEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StudyEnd.swift; path = ../StudyEnd.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +114,15 @@
 			children = (
 				BD1AE1292C29F3EF008818EF /* finalproject_nelumApp.swift */,
 				BD1AE12B2C29F3EF008818EF /* ContentView.swift */,
+				D8E503562C2BAD0700CDB6B7 /* StudyStrategy.swift */,
+				D8E503582C2BAD1200CDB6B7 /* Question1.swift */,
+				D8E5035A2C2BAD1800CDB6B7 /* Question2.swift */,
+				D8E5035C2C2BAD1D00CDB6B7 /* Question3.swift */,
+				D8E5035E2C2BAD2700CDB6B7 /* Question4.swift */,
+				D8E503602C2BAD2C00CDB6B7 /* Question5.swift */,
+				D8E503622C2BAD3100CDB6B7 /* Question6.swift */,
+				D8E503642C2BAD3600CDB6B7 /* Question7.swift */,
+				D8E503662C2BAD3C00CDB6B7 /* StudyEnd.swift */,
 				BD1AE12D2C29F3F1008818EF /* Assets.xcassets */,
 				BD1AE12F2C29F3F1008818EF /* Preview Content */,
 			);
@@ -258,7 +285,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1AE12C2C29F3EF008818EF /* ContentView.swift in Sources */,
+				D8E503672C2BAD3C00CDB6B7 /* StudyEnd.swift in Sources */,
+				D8E503632C2BAD3100CDB6B7 /* Question6.swift in Sources */,
+				D8E5035B2C2BAD1800CDB6B7 /* Question2.swift in Sources */,
 				BD1AE12A2C29F3EF008818EF /* finalproject_nelumApp.swift in Sources */,
+				D8E5035D2C2BAD1D00CDB6B7 /* Question3.swift in Sources */,
+				D8E5035F2C2BAD2700CDB6B7 /* Question4.swift in Sources */,
+				D8E503572C2BAD0700CDB6B7 /* StudyStrategy.swift in Sources */,
+				D8E503592C2BAD1200CDB6B7 /* Question1.swift in Sources */,
+				D8E503612C2BAD2C00CDB6B7 /* Question5.swift in Sources */,
+				D8E503652C2BAD3600CDB6B7 /* Question7.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
