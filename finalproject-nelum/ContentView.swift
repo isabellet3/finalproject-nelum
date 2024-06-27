@@ -13,14 +13,13 @@ struct ContentView: View {
             ZStack{
                 RoundedRectangle (cornerRadius:25)
                     .fill(Color(red:234/255,green:172/255,blue:162/255))
-                    .frame(width:500, height:880)
+                    .frame(width:500, height:990)
                 RoundedRectangle (cornerRadius:25)
                     .fill(Color("color-1"))
                     .frame(width:355, height: 770)
                 
                 VStack{
-                    Spacer()
-                    Spacer()
+                    
                     
                     Text("- welcome to -")
                         .fontWeight(.bold)
@@ -36,8 +35,8 @@ struct ContentView: View {
                         .foregroundColor(Color(red:32/255, green:46/255, blue:84/255))
                
                     
-                    NavigationLink(destination:UpcomingEvents()){
-                        Text("   Upcoming Events                             ")
+                    NavigationLink(destination:Notes()){
+                        Text("   Notes/To-Dos                                      ")
                             .fontWeight(.bold)
                             .foregroundColor(Color(red:32/255, green:46/255, blue:84/255))
                             .padding()
@@ -45,8 +44,8 @@ struct ContentView: View {
                             .cornerRadius(100.0)
                     }
                     .padding()
-                    NavigationLink(destination:Notes()){
-                        Text("   Notes/To-Dos                                      ")
+                    NavigationLink(destination:calendarandtasklist()){
+                        Text("   Calendar                                               ")
                             .fontWeight(.bold)
                             .foregroundColor(Color(red:32/255, green:46/255, blue:84/255))
                             .padding()
@@ -56,9 +55,9 @@ struct ContentView: View {
                     }
                     
                     .padding()
-                    VStack{
-                        NavigationLink(destination:Calendar()){
-                            Text("   Calendar                                               ")
+                    
+                        NavigationLink(destination:StudyStrategy()){
+                            Text("   Study Personalization Tool           ")
                                 .fontWeight(.bold)
                                 .foregroundColor(Color(red:32/255, green:46/255, blue:84/255))
                                 .padding()
@@ -67,17 +66,6 @@ struct ContentView: View {
                             
                         }
                         .padding()
-                        NavigationLink(destination:StudyStrategy()){
-                            Text("   Resources                                            ")
-                                .fontWeight(.bold)
-                                .foregroundColor(Color(red:32/255, green:46/255, blue:84/255))
-                                .padding()
-                                .background(Color.white)
-                                .cornerRadius(100.0)
-                                .padding()
-                        }
-                    }
-                    VStack{
                         NavigationLink(destination:AboutUs()){
                             Text("   About The Creators                         ")
                                 .fontWeight(.bold)
@@ -85,17 +73,96 @@ struct ContentView: View {
                                 .padding()
                                 .background(Color.white)
                                 .cornerRadius(100.0)
-                            
+                                .padding()
                         }
                     }
-                        .padding()
-                        Spacer()
-                        Spacer()
+                    
+                .padding()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
                 }
             }
         }
     }
-}
 #Preview {
     ContentView()
 }
+

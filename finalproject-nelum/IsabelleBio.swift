@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct IsabelleBio: View {
     @State private var nailshowAlert = false
     @State private var vballshowAlert = false
@@ -21,9 +20,8 @@ struct IsabelleBio: View {
     
     var body: some View {
         ZStack {
-            RoundedRectangle (cornerRadius:25)
-                .fill(Color(red:32/255,green:46/255,blue:84/255))
-                .frame(width:500, height:880)
+            Color(Color(red:32/255,green:46/255,blue:84/255))
+                .ignoresSafeArea(.all)
             RoundedRectangle (cornerRadius:25)
                 .fill(Color(red:147/255,green: 166/255,blue: 191/255))
                 .frame(width:355, height: 770)
@@ -220,7 +218,7 @@ struct IsabelleBio: View {
         
     }
 }
-
             #Preview {
                 IsabelleBio()
             }
+
