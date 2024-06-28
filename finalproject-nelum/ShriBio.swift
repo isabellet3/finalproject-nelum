@@ -67,7 +67,7 @@ struct ShriBio: View {
                         .alert(isPresented: $hosashowAlert) {
                             Alert(
                                 title: Text("HOSA!"),
-                                message: Text("this image was when i was a toddler, but right now i am currently 14 years old and a rising freshman to Walter Payton College Prep!")
+                                message: Text("I have been a competitor in HOSA (Health Occupations Students of America) for the past 2 years.")
                             )
                         }
                         
@@ -86,8 +86,8 @@ struct ShriBio: View {
                         }
                         .alert(isPresented: $shoppingshowAlert) {
                             Alert(
-                                title: Text("vball!"),
-                                message: Text("one of my favorite hobbies is playing volleyball! i started playing around fifth grade and hope to continue to play in high school!")
+                                title: Text("shopping!"),
+                                message: Text("This picture shows the Domain, one of my favorite spots for shopping and hanging out with friends in my area. ")
                                 )
                         }
                     }
@@ -107,8 +107,8 @@ struct ShriBio: View {
                     }
                     .alert(isPresented: $favcolorshowAlert) {
                         Alert(
-                            title: Text("karaoke!"),
-                            message: Text ("i love to sing so when it comes to karaoke, i'm all in!")
+                            title: Text("favcolor!"),
+                            message: Text ("My favorite color scheme is pastels because they create a peaceful and calming atmosphere. My favorite shade is pastel purple.")
                             )
                     }
                     
@@ -124,8 +124,8 @@ struct ShriBio: View {
                     }
                     .alert(isPresented: $paintshowAlert) {
                         Alert(
-                            title: Text("chicago!"),
-                            message: Text("i currently live in chicago and would not want to live anywhere else! i am cities > country all the way!")
+                            title: Text("painting!"),
+                            message: Text("In my free time, I enjoy painting, particularly florals and landscapes.")
                         )
                     }
                     
@@ -144,8 +144,8 @@ struct ShriBio: View {
                     }
                     .alert(isPresented: $photographyshowAlert) {
                         Alert(
-                            title: Text("nails!"),
-                            message: Text("nail art is a hobby i love to do! i love to make designs and the sound of the nails tapping other objects!")
+                            title: Text("photography!"),
+                            message: Text("I’ve also been exploring my passion for photography and experimenting with it more.")
                         )
                     }
                     
@@ -161,8 +161,8 @@ struct ShriBio: View {
                     }
                     .alert(isPresented: $pastashowAlert) {
                         Alert(
-                            title: Text("music!"),
-                            message: Text("beabadoobee, the artist on the image, is one of my favorite artists! i also love laufey, clairo, lana del rey, coldplay, and sza!")
+                            title: Text("pasta!"),
+                            message: Text("My favorite food is pasta due to its unique flavors and versatility.")
                         )
                     }
                     
@@ -181,8 +181,8 @@ struct ShriBio: View {
                     }
                     .alert(isPresented: $staffershowAlert) {
                         Alert(
-                            title: Text("books!"),
-                            message: Text("loveboat, taipei is a book i am currently reading and is within the genre of teen fiction, a genre i love to read!")
+                            title: Text("Speaking Sucess!"),
+                            message: Text("I’m also a staffer for my school’s newspaper. “Speaking Success” stands out as one of my favorite pieces because it allowed me to cover an organization that was entirely new to me.")
                         )
                     }
                     
@@ -198,8 +198,8 @@ struct ShriBio: View {
                     }
                     .alert(isPresented: $travelshowAlert) {
                         Alert(
-                            title: Text("tinikling!"),
-                            message: Text("i am filipino and performed tinikling, a traditional bamboo dance from the philippines, at my school's international night!"))
+                            title: Text("traveling!"),
+                            message: Text("I love traveling to different places in the U.S. and around the world, with Europe being my all-time favorite place to visit. "))
                     }
                 }
                 Spacer()
