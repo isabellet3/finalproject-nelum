@@ -13,20 +13,13 @@ struct AboutUs: View {
             ZStack{
                 Color(Color(red:234/255,green:172/255,blue:162/255))
                     .ignoresSafeArea(.all)
-                RoundedRectangle (cornerRadius:25)
-                    .fill(Color("color-1"))
-                    .frame(width:355, height: 770)
+                
                 ScrollView {
                     VStack {
                         Spacer()
-                        Spacer()
-                        Spacer()
-                        Spacer()
-                        Spacer()
-                        Spacer()
-                        Spacer()
-                        Spacer()
-                        Spacer()
+                        
+                       
+                       
                         Text("About the Creators")
                             .fontWeight(.bold)
                             .foregroundColor(.black)
@@ -41,7 +34,7 @@ struct AboutUs: View {
                             HStack {
                         VStack {
                             HStack {
-                                Image("image")
+                                Image("baby")
                                     .resizable()
                                     .aspectRatio(contentMode: .fill)
                                     .frame(width: 175, height: 200)
@@ -85,14 +78,14 @@ struct AboutUs: View {
                         HStack {
                             VStack {
                                 HStack {
-                                    Image("image")
+                                    Image("babymaria")
                                         .resizable()
                                         .aspectRatio(contentMode: .fill)
                                         .frame(width: 175, height: 200)
                                         .border(Color.white, width: 5)
                                         .clipped()
                                     
-                                    Image("image")
+                                    Image("babyshrinidhi")
                                         .resizable()
                                         .aspectRatio(contentMode: .fill)
                                         .frame(width: 175, height: 200)

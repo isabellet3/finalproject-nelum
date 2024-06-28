@@ -21,6 +21,7 @@ struct MariaBio: View {
     var body: some View {
         ZStack {
             Color(Color(red:107/255, green:140/255, blue:123/255))
+                .ignoresSafeArea(.all)
             RoundedRectangle (cornerRadius:25)
                 .fill(Color(red:190/255,green:211/255,blue:196/255))
             VStack(alignment: .center){

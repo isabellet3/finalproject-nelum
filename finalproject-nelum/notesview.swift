@@ -12,19 +12,22 @@ struct notesview: View {
   private var reminders = Reminder.samples
     
   var body: some View {
-      List($reminders) { $reminder in
-          HStack {
-              Image(systemName: reminder.isCompleted
-                    ? "largestar"
-                    : "star")
-              .imageScale(.large)
-              .onTapGesture {
-                  reminder.isCompleted.toggle()
-              }
+      
+          List($reminders) { $reminder in
               
-              Text(reminder.title)
+              HStack {
+                  Image(systemName: reminder.isCompleted
+                        ? "largestar"
+                        : "star")
+                  .imageScale(.large)
+                  .onTapGesture {
+                      reminder.isCompleted.toggle()
+                  }
+                  
+                  Text(reminder.title)
+              }
           }
-      }
+      
     }
 }
 struct ContentView_Previews: PreviewProvider {

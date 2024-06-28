@@ -13,7 +13,7 @@ struct IsabelleBio: View {
     @State private var chicagoshowAlert = false
     @State private var craftshowAlert = false
     @State private var musicshowAlert = false
-    @State private var booksshowAlert = false
+    @State private var awardshowAlert = false
     @State private var tiniklingshowAlert = false
     
     
@@ -67,7 +67,7 @@ struct IsabelleBio: View {
                         .alert(isPresented: $nailshowAlert) {
                             Alert(
                                 title: Text("basic info!"),
-                                message: Text("this image was when i was a toddler, but right now i am currently 14 years old and a rising freshman to Walter Payton College Prep!")
+                                message: Text("this image was when i was a toddler, but i am currently 14 years old and a rising freshman to Walter Payton College Prep!")
                             )
                         }
                         
@@ -170,19 +170,19 @@ struct IsabelleBio: View {
                 Spacer()
                 HStack(spacing:24) {
                     Button(action:{
-                        booksshowAlert = true
+                        awardshowAlert = true
                     }) {
-                        Image ("IsabelleBioBook")
+                        Image ("IsabelleBioAward")
                             .resizable()
                             .aspectRatio(contentMode: .fill)
                             .frame(width: 140, height: 140)
                             .border(Color.white, width: 8)
                             .clipped()
                     }
-                    .alert(isPresented: $booksshowAlert) {
+                    .alert(isPresented: $awardshowAlert) {
                         Alert(
-                            title: Text("books!"),
-                            message: Text("loveboat, taipei is a book i am currently reading and is within the genre of teen fiction, a genre i love to read!")
+                            title: Text("graduation award!"),
+                            message: Text("i was given the honor of being my graduating class' salutatorian! this image is me giving my speech!")
                         )
                     }
                     
