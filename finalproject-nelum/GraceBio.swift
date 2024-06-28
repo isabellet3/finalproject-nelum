@@ -20,9 +20,8 @@ struct GraceBio: View {
     
     var body: some View {
         ZStack {
-            RoundedRectangle (cornerRadius:25)
-                .fill(Color(red:190/255,green:211/255,blue:196/255))
-                .frame(width:500, height:880)
+            Color(Color(red:190/255,green:211/255,blue:196/255))
+                .ignoresSafeArea(.all)
             RoundedRectangle (cornerRadius:25)
                 .fill(Color(red:72/255,green:146/255,blue:157/255))
                 .frame(width:355, height: 770)

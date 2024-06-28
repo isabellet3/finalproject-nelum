@@ -35,7 +35,7 @@ struct ContentView: View {
                         .foregroundColor(Color(red:32/255, green:46/255, blue:84/255))
                
                     
-                    NavigationLink(destination:Notes()){
+                    NavigationLink(destination:notesview()){
                         Text("   Notes/To-Dos                                      ")
                             .fontWeight(.bold)
                             .foregroundColor(Color(red:32/255, green:46/255, blue:84/255))

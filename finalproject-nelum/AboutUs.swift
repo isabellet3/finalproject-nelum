@@ -11,9 +11,8 @@ struct AboutUs: View {
     var body: some View {
         NavigationStack {
             ZStack{
-                RoundedRectangle (cornerRadius:25)
-                    .fill(Color(red:234/255,green:172/255,blue:162/255))
-                    .frame(width:500, height:880)
+                Color(Color(red:234/255,green:172/255,blue:162/255))
+                    .ignoresSafeArea(.all)
                 RoundedRectangle (cornerRadius:25)
                     .fill(Color("color-1"))
                     .frame(width:355, height: 770)
